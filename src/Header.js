@@ -9,7 +9,9 @@ function Header() {
   return (
     <Container>
       <HeaderLogo>
-        <img src="https://i.imgur.com/7I9Was5.png" />
+        <Link to="/">
+          <img src="https://i.imgur.com/7I9Was5.png" />
+        </Link>
       </HeaderLogo>
       <HeaderOptionAddress>
         <LocationOnIcon />
@@ -44,7 +46,6 @@ function Header() {
   );
 }
 
-export default Header;
 const Container = styled.div`
   height: 60px;
   background-color: black;
@@ -124,4 +125,7 @@ const HeaderOptionCart = styled.div`
 
 const CartCount = styled.div`
   padding-left: 4px;
+  font-weight: 700;
+  color: #f08804;
 `;
+export default Header;
