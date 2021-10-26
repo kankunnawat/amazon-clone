@@ -59,4 +59,6 @@ const Content = styled.div`
   padding: 0 10px;
   margin-top: -350px;
   display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
 `;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import CartItem from "./CartItem";
 function CartItems(props) {
   const { cartItems } = props;
-  //   console.log("cartItems", cartItems);
+  console.log("cartItems", cartItems);
 
   return (
     <Container>

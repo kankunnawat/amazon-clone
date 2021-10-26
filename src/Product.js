@@ -45,13 +45,14 @@ function Product(props) {
 const Container = styled.div`
   background-color: white;
   z-index: 100;
-
   flex: 1;
   padding: 20px;
   margin: 10px;
   max-height: 400px;
   display: flex;
   flex-direction: column;
+  width: 30%;
+  /* border-radius: 20px; */
 `;
 
 const Title = styled.span``;
